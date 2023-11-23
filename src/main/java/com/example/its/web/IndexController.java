@@ -10,9 +10,8 @@ public class IndexController {
 
     // GETのトップページと紐づけたいのでGETマッピングを行う
     @GetMapping
-    // Response Bodyを付与することで、戻り値の方をStringに定義することができる
-    @ResponseBody
     public String index() {
-        return "<h1>Hello World!!</h1>";
+        // JSPだと拡張子を記載していたが、Spring MVCが拡張子を保管し、ビューページを表示するため拡張子は不要
+        return "index";
     }
 }
