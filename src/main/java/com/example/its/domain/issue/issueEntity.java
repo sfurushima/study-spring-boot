@@ -3,9 +3,9 @@ package com.example.its.domain.issue;
 public class issueEntity {
     // ID
     private long id;
-    // ŠT—v
+    // æ¦‚è¦
     private String summary;
-    // Ú×
+    // èª¬æ˜
     private String description;
 
     public issueEntity(long id, String summary, String description) {

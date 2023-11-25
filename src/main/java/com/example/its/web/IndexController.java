@@ -4,14 +4,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-// ‚±‚ÌƒAƒmƒe[ƒVƒ‡ƒ“‚ğ‚Â‚¯‚é‚±‚Æ‚ÅASpring‚É‚±‚ÌƒNƒ‰ƒX‚ªController‚¾‚Æ’è‹`‚·‚é
+// ã“ã®ã‚¢ãƒãƒ†ãƒ¼ã‚·ãƒ§ãƒ³ã‚’ã¤ã‘ã‚‹ã“ã¨ã§ã€Springã«ã“ã®ã‚¯ãƒ©ã‚¹ãŒControllerã ã¨å®šç¾©ã™ã‚‹
 @Controller
 public class IndexController {
 
-    // GET‚Ìƒgƒbƒvƒy[ƒW‚Æ•R‚Ã‚¯‚½‚¢‚Ì‚ÅGETƒ}ƒbƒsƒ“ƒO‚ğs‚¤
+    // GETã®ãƒˆãƒƒãƒ—ãƒšãƒ¼ã‚¸ã¨ç´ã¥ã‘ãŸã„ã®ã§GETãƒãƒƒãƒ”ãƒ³ã‚°ã‚’è¡Œã†
     @GetMapping
     public String index() {
-        // JSP‚¾‚ÆŠg’£q‚ğ‹LÚ‚µ‚Ä‚¢‚½‚ªASpring MVC‚ªŠg’£q‚ğ•ÛŠÇ‚µAƒrƒ…[ƒy[ƒW‚ğ•\¦‚·‚é‚½‚ßŠg’£q‚Í•s—v
+        // JSPã ã¨æ‹¡å¼µå­ã‚’è¨˜è¼‰ã—ã¦ã„ãŸãŒã€Spring MVCãŒæ‹¡å¼µå­ã‚’ä¿ç®¡ã—ã€ãƒ“ãƒ¥ãƒ¼ãƒšãƒ¼ã‚¸ã‚’è¡¨ç¤ºã™ã‚‹ãŸã‚æ‹¡å¼µå­ã¯ä¸è¦
         return "index";
     }
 }
