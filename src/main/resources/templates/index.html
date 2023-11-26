@@ -6,5 +6,13 @@
 </head>
 <body>
     <h1>課題管理アプリケーション</h1>
+    <ul>
+        <li>
+            <!--th:hrefは、aタグのhref属性を書き換えるもの-->
+            <!--@{issues}に書き換え、issueControllerが呼び出されて動く。-->
+            <!--ここでaタグで設定しているのは、Springアプリケーションで動作を確認するためには設定が必要なため。-->
+            <a href="./issues/list.html" th:href="@{/issues}">課題一覧</a>
+        </li>
+    </ul>
 </body>
 </html>
