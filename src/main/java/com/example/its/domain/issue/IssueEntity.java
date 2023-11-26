@@ -7,7 +7,7 @@ import lombok.Data;
 @AllArgsConstructor
 // setter, getterを自動生成してくれるアノテーション(lombok)
 @Data
-public class issueEntity {
+public class IssueEntity {
     // ID
     private long id;
     // 概要
