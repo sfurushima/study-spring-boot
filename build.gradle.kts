@@ -10,6 +10,7 @@ version = "0.0.1-SNAPSHOT"
 configurations {
 	compileOnly {
 		extendsFrom(configurations.annotationProcessor.get())
+
 	}
 }
 
@@ -26,6 +27,8 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	compileOnly("org.projectlombok:lombok")
+	implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3")
+	runtimeOnly("com.h2database:h2")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
